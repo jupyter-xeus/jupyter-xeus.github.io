@@ -1,0 +1,26 @@
+---
+layout: default
+title: Public team management for the Xeus project
+---
+
+<h2>Xeus Team Compass</h2>
+
+Xeus is a subproject of Project Jupyter and subject to the <a href="https://github.com/jupyter/governance">Jupyter governance</a> and <a href="https://github.com/jupyter/governance/blob/master/conduct/code_of_conduct.md">Code of conduct</a>.
+
+<h2>Calendar for the Xeus public video meetings.</h2>
+<p>
+This page contains the calendar for the public team meetings of the Xeus community.
+If you have a Google account, you can add this calendar to you account with the "+" button at the bottom-right corner.
+</p>
+
+<iframe src="https://calendar.google.com/calendar/embed?src=cXVhbnRzdGFjay5uZXRfbnNocGp0OGNobGIzaHZpNHJpOWxnZWNjdnNAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&amp;showTitle=0" style="border: 0; width: 100%; min-height: 400px;" frameborder="0" scrolling="no"></iframe>
+
+<h2>Meeting Notes:</h2>
+
+<p>These are the notes from the weekly meetings, which are generally written during the call by connected team members.</p>
+
+<ul>
+  {% for post in site.posts %}
+    <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+  {% endfor %}
+</ul>
